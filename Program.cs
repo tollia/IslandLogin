@@ -1,11 +1,7 @@
 using IslandLogin.Classes.Middleware;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Newtonsoft.Json;
-using System.Globalization;
 using System.Security.Claims;
-using Microsoft.Extensions.Configuration;
-using Microsoft.AspNetCore.Authentication;
 
 IConfiguration configuration = new ConfigurationBuilder()
     //.AddJsonFile("secrets.json", optional: true, reloadOnChange: true)

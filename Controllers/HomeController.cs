@@ -2,11 +2,10 @@
 using IslandLogin.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace IslandLogin.Controllers {
     [Authorize]
